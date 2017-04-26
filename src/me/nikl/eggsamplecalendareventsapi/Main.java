@@ -32,7 +32,7 @@ public class Main extends JavaPlugin implements Listener{
 
         // get the time in two minutes in the format 'hh:mm'
         ZonedDateTime now = ZonedDateTime.now();
-        String inTwoMin = now.getHour() < 10 ? "0" + now.getHour() : String.valueOf(now.getHour()) + ":" + ((now.getMinute() + 2)< 10 ? "0" + (now.getMinute() + 2) : String.valueOf(now.getMinute() + 2));
+        String inTwoMin = (now.getHour() < 10 ? "0" + now.getHour() : String.valueOf(now.getHour())) + ":" + ((now.getMinute() + 2)< 10 ? "0" + (now.getMinute() + 2) : String.valueOf(now.getMinute() + 2));
 
         // get the API
         api = calendarEvents.getApi();
