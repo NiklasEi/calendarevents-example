@@ -13,6 +13,7 @@ hs_err_pid*
 
 # ignore the output
 out/*
+target/
 
 .idea/
 *.iml
