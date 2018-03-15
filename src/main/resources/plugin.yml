@@ -1,6 +1,6 @@
 name: ExampleCalendarEventsAPI
 author: Nikl
-main: me.nikl.examplecalendareventsapi.Main
+main: me.nikl.CalendarEventsExample
 version: 1.0.0
 website: nikl.me
 depend: [CalendarEvents]
